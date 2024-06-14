@@ -1,0 +1,7 @@
+.main {
+  @apply
+  flex flex-col
+  w-full h-full min-h-screen sm:px-0
+  bg-zinc-900
+  overflow-hidden;
+}

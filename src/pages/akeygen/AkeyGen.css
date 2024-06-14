@@ -1,0 +1,15 @@
+@keyframes blinkAnimation {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #bef264;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.blink {
+  animation: blinkAnimation 0.5s;
+}
